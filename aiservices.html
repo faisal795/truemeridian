@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>True Meridian</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="main_container">
+      <!-- Header section -->
+      <header class="header_section">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="Logo.svg" alt="True Meridian Logo"
+          /></a>
+        </div>
+        <div class="pages_links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aiservices.html">Agentic AI </a></li>
+            <li><a href="cloudservices.html">Cloud Services</a></li>
+            <li><a href="solutions.html">Solutions</a></li>
+            <li><a href="team.html">Team</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main class="services_page_main">
+        <!-- Services section -->
+        <section class="services_hero">
+          <div class="services_hero_inner">
+            <h1 class="services_title">Machine Learning and Agentic AI</h1>
+            <p class="services_subtitle">
+              <b>True Meridian </b>provides a number of services out of the box that
+              enable an organization to jump start their information analysis
+              process. These services are the backbone to the <b>pre-built
+              solutions</b> available in the Healthcare and Financial sectors.
+            </p>
+          </div>
+        </section>
+
+        <!-- Services Content section -->
+        <section class="services_content_section">
+          <div class="services_layout">
+            <aside class="services_sidebar" aria-label="Services navigation">
+              <button
+                class="service_tab active"
+                type="button"
+                data-service-tab="information-collection"
+              >
+                Information Collection
+              </button>
+              <button
+                class="service_tab"
+                type="button"
+                data-service-tab="data-location-markup"
+              >
+                Data Markup
+              </button>
+              <button
+                class="service_tab"
+                type="button"
+                data-service-tab="fact-extraction"
+              >
+                Fact Extraction
+              </button>
+              <button
+                class="service_tab"
+                type="button"
+                data-service-tab="visualization"
+              >
+                Visualization
+              </button>
+              <button
+                class="service_tab"
+                type="button"
+                data-service-tab="sentiment-analysis"
+              >
+                Sentiment Analysis
+              </button>
+            </aside>
+
+            <div class="services_content" aria-live="polite">
+              <!-- Information Collection -->
+              <article
+                class="service_panel active"
+                data-service-panel="information-collection"
+              >
+                <div class="service_panel_img">
+                  <img
+                    src="./images/Info_Collection.png"
+                    alt="Info_Collection"
+                    srcset=""
+                  />
+                </div>
+                <h2 class="service_panel_title">Information Collection</h2>
+                <p class="service_panel_text">
+                  Any analysis or research starts by locating and ingesting
+                  available information in the field under focus. The
+                  information can be discovered from a number of sources, both
+                  public and private. Available data collectors allow ease of
+                  access for connecting to and consuming information continually
+                  as it becomes available. Some of the available collectors
+                  include the following:
+                </p>
+                <ol class="service_panel_list">
+                  <li>
+                    The system can be setup to monitor any number of sites
+                    and/or specific URLs that are programmatically accessed to
+                    scrape information. While some sites provide static content,
+                    others might be updated on a consistent basis. The system
+                    intelligently locates new content and populates the
+                    discovery database with it.
+                  </li>
+                  <li>
+                    Organizations usually compile their own private research and
+                    document corpuses. The Discovery service can connect to any
+                    local or popular pre-existing storage service (such as
+                    Dropbox, Box, Google Drive, S3 etc) and ingest selected
+                    folders.
+                  </li>
+                  <li>
+                    Existing connectors to social media sites utilize user
+                    defined search patterns to filter and locate public opinion
+                    messages of interest. These messages can be analyzed with
+                    additional tools to glean useful information.
+                  </li>
+                </ol>
+                <p class="service_panel_text">
+                  Additional supported sources include RSS feeds, zipped
+                  document archives and email accounts. In addition, the system
+                  provides the capability to link with external API based
+                  services for specialized information retrieval.
+                </p>
+                <div class="service_panel_img">
+                  <img
+                    src="./images/Info_Explor.svg"
+                    alt="Info_Collection"
+                    srcset=""
+                    style="height: 96px; filter: brightness(0) invert(1)"
+                  />
+                </div>
+              </article>
+
+              <!-- Data Location & Markup -->
+              <article
+                class="service_panel"
+                data-service-panel="data-location-markup"
+              >
+                <h2 class="service_panel_title">Data Markup</h2>
+                <p class="service_panel_text">
+                  Information discovery is the essential first link in the
+                  analysis chain. The Discovery process results in the
+                  proverbial haystack of data and it is up to the users to
+                  locate the desired “information needles.” Fortunately, the
+                  right ensemble of tools helps expedites the process
+                  significantly.
+                </p>
+                <h3 class="service_panel_title for_font_size">Dictionaries</h3>
+                <p class="service_panel_text">
+                  All industries and verticals have their own specific sets of
+                  terms, which carry special meaning within that field. Such
+                  terms constitute the dictionaries for that domain and usually
+                  carry a lot of significance. Furthermore, terms and phrases
+                  with higher statistical usage can be the basis of identifying
+                  patterns around how they are treated and received.
+                </p>
+                <h3 class="service_panel_title for_font_size">Ontologies</h3>
+                <p class="service_panel_text">
+                  Ontologies represent the grammar for the domain. They impart
+                  additional meaning to the dictionary elements by defining the
+                  relationships between them. This allows for building analyzers
+                  and reasoners that define the patterns of usage for these
+                  terms. Infosiphon provides pre-built dictionaries and
+                  ontologies for a number of verticals as a starting point.
+                </p>
+
+                <h3 class="service_panel_title for_font_size">
+                  Pattern Analysis
+                </h3>
+                <p class="service_panel_text">
+                  Pattern Analysis is applicable at many different levels. Some
+                  examples include Regular Expressions, Statistical patterns,
+                  Images and Chart patterns, Behavior patterns and a lot more.
+                  At the simplest level, text analysis may involve looking for
+                  texts that conform to Regular Expressions, such as email
+                  addresses or credit card numbers. More complex patterns can be
+                  defined as required by the analysis at hand.
+                </p>
+
+                <h3 class="service_panel_title for_font_size">
+                  Highlighting and Reporting
+                </h3>
+
+                <div class="service_panel_content_img_wrap">
+                <p class="service_panel_text">
+                  Once the desired patterns are located, Infosiphon technology
+                  provides the tools to generate reports around the specific
+                  locations of the texts and highlight the original documents
+                  for a full contextual view. This allows for easy location of
+                  the desired content within copious documents. The example
+                  below shows a pattern analysis application, where a PDF
+                  document was scanned to locate phone numbers and email
+                  addresses. The document was also rewritten to highlight the
+                  data of interest.
+                </p>
+
+                <div class="service_panel_content_img">
+                  <img
+                    src="./images/datalocation1.jpeg"
+                    alt="Info_Collection"
+                    srcset=""
+                  />
+                </div>
+                </div>
+
+              </article>
+
+              <!-- Fact Extraction -->
+              <article
+                class="service_panel"
+                data-service-panel="fact-extraction"
+              >
+                <h2 class="service_panel_title">Fact Extraction</h2>
+                <p class="service_panel_text">
+                  Infosiphon’s extraction engine identifies discrete facts,
+                  relationships, and events buried within natural language text.
+                  Domain‑specific dictionaries, ontologies, and pattern
+                  libraries allow organizations to capture the nuance of
+                  clinical, financial, legal, and operational language.
+                </p>
+                <p class="service_panel_text">
+                  Extracted facts are stored in a structured form that can be
+                  searched, filtered, and aggregated, enabling sophisticated
+                  analytics without losing the context of the original source
+                  material.
+                </p>
+              </article>
+
+              <!-- Visualization -->
+              <article class="service_panel" data-service-panel="visualization">
+                <h2 class="service_panel_title">Visualization</h2>
+                <p class="service_panel_text">
+                  Once information has been collected and enriched, Infosiphon
+                  provides interactive visualization capabilities to help
+                  analysts explore patterns and trends. Timeline, network,
+                  geospatial, and dashboard views can be tailored to specific
+                  roles so that each stakeholder sees the insights that matter
+                  most to them.
+                </p>
+                <p class="service_panel_text">
+                  Visualizations are powered directly from the underlying
+                  knowledge base, ensuring that what you see on screen is always
+                  traceable back to the original sources and extracted facts.
+                </p>
+              </article>
+
+              <!-- Sentiment Analysis -->
+              <article
+                class="service_panel"
+                data-service-panel="sentiment-analysis"
+              >
+                <h2 class="service_panel_title">Sentiment Analysis</h2>
+                <p class="service_panel_text">
+                  Sentiment analysis capabilities measure tone, attitude, and
+                  polarity across large volumes of narrative content. Whether
+                  you are assessing patient experience, customer satisfaction,
+                  or workforce engagement, Infosiphon’s models surface emerging
+                  signals that can be acted on quickly.
+                </p>
+                <p class="service_panel_text">
+                  Sentiment scores are stored alongside other extracted facts,
+                  enabling combined analysis such as correlating sentiment with
+                  specific diagnoses, products, or operational events.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Footer section -->
+      <footer class="footer_section">
+        <div class="footer_top">
+          <div class="footer_logo_wrap">
+            <img
+              src="./images/Footer_Logo.svg"
+              alt="True Meridian Logo"
+              class="footer_logo"
+            />
+          </div>
+        </div>
+
+        <div class="footer_bottom">
+          <span class="footer_bottom_text"
+            >© <span id="year"></span> True Meridian</span
+          >
+          <a href="privacy.html" class="footer_bottom_link">Privacy</a>
+          <a href="termofservice.html" class="footer_bottom_link"
+            >Terms of Service</a
+          >
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
